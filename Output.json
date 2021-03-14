@@ -1,0 +1,1971 @@
+{
+  "population_template": {
+    "age": [
+      "adults",
+      "elders",
+      "young",
+      "children"
+    ],
+    "occupation": [
+      "idle",
+      "student",
+      "worker"
+    ]
+  },
+  "block_types": [
+    "subgroup_a"
+  ],
+  "regions": [
+    {
+      "name": "Azenha",
+      "long_lat_position": [
+        -51.2147436812232,
+        -30.0510199525848
+      ],
+      "world_position": [
+        301.17566260416061,
+        -1566.5962688550353
+      ],
+      "neighbors": [
+        "Cidade Baixa",
+        "Farroupilha",
+        "Santana",
+        "Menino Deus"
+      ],
+      "population": [
+        13804
+      ],
+      "population_description": {
+        "subgroup_a": {
+          "age": {
+            "adults": 6973,
+            "elders": 2079,
+            "young": 2168,
+            "children": 2584
+          },
+          "occupation": {
+            "idle": 3274,
+            "student": 2978,
+            "worker": 7552
+          }
+        }
+      },
+      "nodes": {
+        "home": {
+          "characteristics": {
+            "long_lat_position": [
+              -51.216515023920117,
+              -30.049979704285192
+            ]
+          },
+          "12": [
+            {
+              "name": "return_young_students",
+              "type": "return_population_home",
+              "values": {
+                "region": "Azenha",
+                "node": "home",
+                "quantity": -1,
+                "population_template": {
+                  "age": "young",
+                  "occupation": "student"
+                }
+              }
+            }
+          ],
+          "17": [
+            {
+              "name": "return_children_students",
+              "type": "return_population_home",
+              "values": {
+                "region": "Azenha",
+                "node": "home",
+                "quantity": -1,
+                "population_template": {
+                  "age": "children",
+                  "occupation": "student"
+                }
+              }
+            }
+          ],
+          "18": [
+            {
+              "name": "return_workers",
+              "type": "return_population_home",
+              "values": {
+                "region": "Azenha",
+                "node": "home",
+                "quantity": -1,
+                "population_template": {
+                  "occupation": "worker"
+                }
+              }
+            }
+          ]
+        },
+        "work": {
+          "characteristics": {
+            "long_lat_position": [
+              -51.2133288165572,
+              -30.055422465151622
+            ]
+          },
+          "7": [
+            {
+              "name": "request_workers",
+              "type": "gather_population",
+              "values": {
+                "region": "Azenha",
+                "node": "work",
+                "quantity": 6041,
+                "population_template": {
+                  "occupation": "worker"
+                }
+              }
+            }
+          ]
+        },
+        "school": {
+          "characteristics": {
+            "long_lat_position": [
+              -51.216204801258392,
+              -30.053431959898088
+            ]
+          },
+          "7": [
+            {
+              "name": "request_young_students",
+              "type": "gather_population",
+              "values": {
+                "region": "Azenha",
+                "node": "school",
+                "quantity": 1072,
+                "population_template": {
+                  "age": "young",
+                  "occupation": "student"
+                }
+              }
+            }
+          ],
+          "12": [
+            {
+              "name": "request_children_students",
+              "type": "gather_population",
+              "values": {
+                "region": "Azenha",
+                "node": "school",
+                "quantity": 1310,
+                "population_template": {
+                  "age": "children",
+                  "occupation": "student"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Bom Fim",
+      "long_lat_position": [
+        -51.2104807594223,
+        -30.0330589939714
+      ],
+      "world_position": [
+        775.72194677125663,
+        731.49044080264866
+      ],
+      "neighbors": [
+        "Independência",
+        "Rio Branco",
+        "Santa Cecília",
+        "Santana",
+        "Farroupilha",
+        "Centro",
+        "Moinhos de Vento"
+      ],
+      "population": [
+        11593
+      ],
+      "population_description": {
+        "subgroup_a": {
+          "age": {
+            "adults": 5857,
+            "elders": 1746,
+            "young": 1820,
+            "children": 2170
+          },
+          "occupation": {
+            "idle": 2749,
+            "student": 2501,
+            "worker": 6343
+          }
+        }
+      },
+      "nodes": {
+        "home": {
+          "characteristics": {
+            "long_lat_position": [
+              -51.210272900767961,
+              -30.029057920751804
+            ]
+          },
+          "12": [
+            {
+              "name": "return_young_students",
+              "type": "return_population_home",
+              "values": {
+                "region": "Bom Fim",
+                "node": "home",
+                "quantity": -1,
+                "population_template": {
+                  "age": "young",
+                  "occupation": "student"
+                }
+              }
+            }
+          ],
+          "17": [
+            {
+              "name": "return_children_students",
+              "type": "return_population_home",
+              "values": {
+                "region": "Bom Fim",
+                "node": "home",
+                "quantity": -1,
+                "population_template": {
+                  "age": "children",
+                  "occupation": "student"
+                }
+              }
+            }
+          ],
+          "18": [
+            {
+              "name": "return_workers",
+              "type": "return_population_home",
+              "values": {
+                "region": "Bom Fim",
+                "node": "home",
+                "quantity": -1,
+                "population_template": {
+                  "occupation": "worker"
+                }
+              }
+            }
+          ]
+        },
+        "work": {
+          "characteristics": {
+            "long_lat_position": [
+              -51.212762000217708,
+              -30.036056157663293
+            ]
+          },
+          "7": [
+            {
+              "name": "request_workers",
+              "type": "gather_population",
+              "values": {
+                "region": "Bom Fim",
+                "node": "work",
+                "quantity": 5074,
+                "population_template": {
+                  "occupation": "worker"
+                }
+              }
+            }
+          ]
+        },
+        "school": {
+          "characteristics": {
+            "long_lat_position": [
+              -51.216697402746888,
+              -30.030630135298697
+            ]
+          },
+          "7": [
+            {
+              "name": "request_young_students",
+              "type": "gather_population",
+              "values": {
+                "region": "Bom Fim",
+                "node": "school",
+                "quantity": 900,
+                "population_template": {
+                  "age": "young",
+                  "occupation": "student"
+                }
+              }
+            }
+          ],
+          "12": [
+            {
+              "name": "request_children_students",
+              "type": "gather_population",
+              "values": {
+                "region": "Bom Fim",
+                "node": "school",
+                "quantity": 1100,
+                "population_template": {
+                  "age": "children",
+                  "occupation": "student"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Centro",
+      "long_lat_position": [
+        -51.2278480810808,
+        -30.031004727877
+      ],
+      "world_position": [
+        -1157.5994566958398,
+        994.30492254672572
+      ],
+      "neighbors": [
+        "Floresta",
+        "Independência",
+        "Bom Fim",
+        "Farroupilha",
+        "Cidade Baixa",
+        "Praia de Belas"
+      ],
+      "population": [
+        39153,
+        1,
+        0
+      ],
+      "population_description": {
+        "subgroup_a": {
+          "age": {
+            "adults": 19777,
+            "elders": 5897,
+            "young": 6149,
+            "children": 7331
+          },
+          "occupation": {
+            "idle": 9286,
+            "student": 8447,
+            "worker": 21421
+          }
+        }
+      },
+      "nodes": {
+        "home": {
+          "characteristics": {
+            "long_lat_position": [
+              -51.225738889264868,
+              -30.025919944344786
+            ]
+          },
+          "12": [
+            {
+              "name": "return_young_students",
+              "type": "return_population_home",
+              "values": {
+                "region": "Centro",
+                "node": "home",
+                "quantity": -1,
+                "population_template": {
+                  "age": "young",
+                  "occupation": "student"
+                }
+              }
+            }
+          ],
+          "17": [
+            {
+              "name": "return_children_students",
+              "type": "return_population_home",
+              "values": {
+                "region": "Centro",
+                "node": "home",
+                "quantity": -1,
+                "population_template": {
+                  "age": "children",
+                  "occupation": "student"
+                }
+              }
+            }
+          ],
+          "18": [
+            {
+              "name": "return_workers",
+              "type": "return_population_home",
+              "values": {
+                "region": "Centro",
+                "node": "home",
+                "quantity": -1,
+                "population_template": {
+                  "occupation": "worker"
+                }
+              }
+            }
+          ]
+        },
+        "work": {
+          "characteristics": {
+            "long_lat_position": [
+              -51.223456560939944,
+              -30.034972737233549
+            ]
+          },
+          "7": [
+            {
+              "name": "request_workers",
+              "type": "gather_population",
+              "values": {
+                "region": "Centro",
+                "node": "work",
+                "quantity": 17136,
+                "population_template": {
+                  "occupation": "worker"
+                }
+              }
+            }
+          ]
+        },
+        "school": {
+          "characteristics": {
+            "long_lat_position": [
+              -51.233827999905543,
+              -30.02763469245609
+            ]
+          },
+          "7": [
+            {
+              "name": "request_young_students",
+              "type": "gather_population",
+              "values": {
+                "region": "Centro",
+                "node": "school",
+                "quantity": 3040,
+                "population_template": {
+                  "age": "young",
+                  "occupation": "student"
+                }
+              }
+            }
+          ],
+          "12": [
+            {
+              "name": "request_children_students",
+              "type": "gather_population",
+              "values": {
+                "region": "Centro",
+                "node": "school",
+                "quantity": 3716,
+                "population_template": {
+                  "age": "children",
+                  "occupation": "student"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Cidade Baixa",
+      "long_lat_position": [
+        -51.2224525885919,
+        -30.0404993243547
+      ],
+      "world_position": [
+        -556.97598025202751,
+        -220.44134464114904
+      ],
+      "neighbors": [
+        "Centro",
+        "Farroupilha",
+        "Santana",
+        "Azenha",
+        "Menino Deus",
+        "Praia de Belas"
+      ],
+      "population": [
+        15379
+      ],
+      "population_description": {
+        "subgroup_a": {
+          "age": {
+            "adults": 7769,
+            "elders": 2316,
+            "young": 2415,
+            "children": 2879
+          },
+          "occupation": {
+            "idle": 3647,
+            "student": 3318,
+            "worker": 8414
+          }
+        }
+      },
+      "nodes": {
+        "home": {
+          "characteristics": {
+            "long_lat_position": [
+              -51.226023552494695,
+              -30.038740846547725
+            ]
+          },
+          "12": [
+            {
+              "name": "return_young_students",
+              "type": "return_population_home",
+              "values": {
+                "region": "Cidade Baixa",
+                "node": "home",
+                "quantity": -1,
+                "population_template": {
+                  "age": "young",
+                  "occupation": "student"
+                }
+              }
+            }
+          ],
+          "17": [
+            {
+              "name": "return_children_students",
+              "type": "return_population_home",
+              "values": {
+                "region": "Cidade Baixa",
+                "node": "home",
+                "quantity": -1,
+                "population_template": {
+                  "age": "children",
+                  "occupation": "student"
+                }
+              }
+            }
+          ],
+          "18": [
+            {
+              "name": "return_workers",
+              "type": "return_population_home",
+              "values": {
+                "region": "Cidade Baixa",
+                "node": "home",
+                "quantity": -1,
+                "population_template": {
+                  "occupation": "worker"
+                }
+              }
+            }
+          ]
+        },
+        "work": {
+          "characteristics": {
+            "long_lat_position": [
+              -51.223445898017,
+              -30.038794818134569
+            ]
+          },
+          "7": [
+            {
+              "name": "request_workers",
+              "type": "gather_population",
+              "values": {
+                "region": "Cidade Baixa",
+                "node": "work",
+                "quantity": 6731,
+                "population_template": {
+                  "occupation": "worker"
+                }
+              }
+            }
+          ]
+        },
+        "school": {
+          "characteristics": {
+            "long_lat_position": [
+              -51.2255165575819,
+              -30.042174348532061
+            ]
+          },
+          "7": [
+            {
+              "name": "request_young_students",
+              "type": "gather_population",
+              "values": {
+                "region": "Cidade Baixa",
+                "node": "school",
+                "quantity": 1194,
+                "population_template": {
+                  "age": "young",
+                  "occupation": "student"
+                }
+              }
+            }
+          ],
+          "12": [
+            {
+              "name": "request_children_students",
+              "type": "gather_population",
+              "values": {
+                "region": "Cidade Baixa",
+                "node": "school",
+                "quantity": 1459,
+                "population_template": {
+                  "age": "children",
+                  "occupation": "student"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Farroupilha",
+      "long_lat_position": [
+        -51.2136185372287,
+        -30.038368061923
+      ],
+      "world_position": [
+        426.42611914034933,
+        52.244308283552527
+      ],
+      "neighbors": [
+        "Bom Fim",
+        "Santana",
+        "Azenha",
+        "Cidade Baixa",
+        "Centro",
+        "Rio Branco",
+        "Santa Cecília"
+      ],
+      "population": [
+        961
+      ],
+      "population_description": {
+        "subgroup_a": {
+          "age": {
+            "adults": 488,
+            "elders": 144,
+            "young": 150,
+            "children": 179
+          },
+          "occupation": {
+            "idle": 227,
+            "student": 207,
+            "worker": 527
+          }
+        }
+      },
+      "nodes": {
+        "home": {
+          "characteristics": {
+            "long_lat_position": [
+              -51.217456704420613,
+              -30.03874292789342
+            ]
+          },
+          "12": [
+            {
+              "name": "return_young_students",
+              "type": "return_population_home",
+              "values": {
+                "region": "Farroupilha",
+                "node": "home",
+                "quantity": -1,
+                "population_template": {
+                  "age": "young",
+                  "occupation": "student"
+                }
+              }
+            }
+          ],
+          "17": [
+            {
+              "name": "return_children_students",
+              "type": "return_population_home",
+              "values": {
+                "region": "Farroupilha",
+                "node": "home",
+                "quantity": -1,
+                "population_template": {
+                  "age": "children",
+                  "occupation": "student"
+                }
+              }
+            }
+          ],
+          "18": [
+            {
+              "name": "return_workers",
+              "type": "return_population_home",
+              "values": {
+                "region": "Farroupilha",
+                "node": "home",
+                "quantity": -1,
+                "population_template": {
+                  "occupation": "worker"
+                }
+              }
+            }
+          ]
+        },
+        "work": {
+          "characteristics": {
+            "long_lat_position": [
+              -51.215850129025483,
+              -30.042030811854293
+            ]
+          },
+          "7": [
+            {
+              "name": "request_workers",
+              "type": "gather_population",
+              "values": {
+                "region": "Farroupilha",
+                "node": "work",
+                "quantity": 421,
+                "population_template": {
+                  "occupation": "worker"
+                }
+              }
+            }
+          ]
+        },
+        "school": {
+          "characteristics": {
+            "long_lat_position": [
+              -51.218981798578596,
+              -30.03772596097577
+            ]
+          },
+          "7": [
+            {
+              "name": "request_young_students",
+              "type": "gather_population",
+              "values": {
+                "region": "Farroupilha",
+                "node": "school",
+                "quantity": 74,
+                "population_template": {
+                  "age": "young",
+                  "occupation": "student"
+                }
+              }
+            }
+          ],
+          "12": [
+            {
+              "name": "request_children_students",
+              "type": "gather_population",
+              "values": {
+                "region": "Farroupilha",
+                "node": "school",
+                "quantity": 91,
+                "population_template": {
+                  "age": "children",
+                  "occupation": "student"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Floresta",
+      "long_lat_position": [
+        -51.2120255115732,
+        -30.0218580655156
+      ],
+      "world_position": [
+        603.76092393137515,
+        2164.4250726364553
+      ],
+      "neighbors": [
+        "Moinhos de Vento",
+        "Independência",
+        "Centro"
+      ],
+      "population": [
+        11596
+      ],
+      "population_description": {
+        "subgroup_a": {
+          "age": {
+            "adults": 5858,
+            "elders": 1746,
+            "young": 1821,
+            "children": 2171
+          },
+          "occupation": {
+            "idle": 2750,
+            "student": 2501,
+            "worker": 6345
+          }
+        }
+      },
+      "nodes": {
+        "home": {
+          "characteristics": {
+            "long_lat_position": [
+              -51.20980025908387,
+              -30.02355286488952
+            ]
+          },
+          "12": [
+            {
+              "name": "return_young_students",
+              "type": "return_population_home",
+              "values": {
+                "region": "Floresta",
+                "node": "home",
+                "quantity": -1,
+                "population_template": {
+                  "age": "young",
+                  "occupation": "student"
+                }
+              }
+            }
+          ],
+          "17": [
+            {
+              "name": "return_children_students",
+              "type": "return_population_home",
+              "values": {
+                "region": "Floresta",
+                "node": "home",
+                "quantity": -1,
+                "population_template": {
+                  "age": "children",
+                  "occupation": "student"
+                }
+              }
+            }
+          ],
+          "18": [
+            {
+              "name": "return_workers",
+              "type": "return_population_home",
+              "values": {
+                "region": "Floresta",
+                "node": "home",
+                "quantity": -1,
+                "population_template": {
+                  "occupation": "worker"
+                }
+              }
+            }
+          ]
+        },
+        "work": {
+          "characteristics": {
+            "long_lat_position": [
+              -51.210132460835077,
+              -30.021445906048026
+            ]
+          },
+          "7": [
+            {
+              "name": "request_workers",
+              "type": "gather_population",
+              "values": {
+                "region": "Floresta",
+                "node": "work",
+                "quantity": 5076,
+                "population_template": {
+                  "occupation": "worker"
+                }
+              }
+            }
+          ]
+        },
+        "school": {
+          "characteristics": {
+            "long_lat_position": [
+              -51.215095045961938,
+              -30.024178548066054
+            ]
+          },
+          "7": [
+            {
+              "name": "request_young_students",
+              "type": "gather_population",
+              "values": {
+                "region": "Floresta",
+                "node": "school",
+                "quantity": 900,
+                "population_template": {
+                  "age": "young",
+                  "occupation": "student"
+                }
+              }
+            }
+          ],
+          "12": [
+            {
+              "name": "request_children_students",
+              "type": "gather_population",
+              "values": {
+                "region": "Floresta",
+                "node": "school",
+                "quantity": 1100,
+                "population_template": {
+                  "age": "children",
+                  "occupation": "student"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Independência",
+      "long_lat_position": [
+        -51.2114165227445,
+        -30.0283138642156
+      ],
+      "world_position": [
+        671.55325024109334,
+        1338.5547946770675
+      ],
+      "neighbors": [
+        "Floresta",
+        "Moinhos de Vento",
+        "Rio Branco",
+        "Bom Fim",
+        "Centro"
+      ],
+      "population": [
+        8112
+      ],
+      "population_description": {
+        "subgroup_a": {
+          "age": {
+            "adults": 4099,
+            "elders": 1221,
+            "young": 1274,
+            "children": 1518
+          },
+          "occupation": {
+            "idle": 1924,
+            "student": 1750,
+            "worker": 4438
+          }
+        }
+      },
+      "nodes": {
+        "home": {
+          "characteristics": {
+            "long_lat_position": [
+              -51.209426628695127,
+              -30.028013704038827
+            ]
+          },
+          "12": [
+            {
+              "name": "return_young_students",
+              "type": "return_population_home",
+              "values": {
+                "region": "Independência",
+                "node": "home",
+                "quantity": -1,
+                "population_template": {
+                  "age": "young",
+                  "occupation": "student"
+                }
+              }
+            }
+          ],
+          "17": [
+            {
+              "name": "return_children_students",
+              "type": "return_population_home",
+              "values": {
+                "region": "Independência",
+                "node": "home",
+                "quantity": -1,
+                "population_template": {
+                  "age": "children",
+                  "occupation": "student"
+                }
+              }
+            }
+          ],
+          "18": [
+            {
+              "name": "return_workers",
+              "type": "return_population_home",
+              "values": {
+                "region": "Independência",
+                "node": "home",
+                "quantity": -1,
+                "population_template": {
+                  "occupation": "worker"
+                }
+              }
+            }
+          ]
+        },
+        "work": {
+          "characteristics": {
+            "long_lat_position": [
+              -51.2140832037951,
+              -30.02503459819722
+            ]
+          },
+          "7": [
+            {
+              "name": "request_workers",
+              "type": "gather_population",
+              "values": {
+                "region": "Independência",
+                "node": "work",
+                "quantity": 3550,
+                "population_template": {
+                  "occupation": "worker"
+                }
+              }
+            }
+          ]
+        },
+        "school": {
+          "characteristics": {
+            "long_lat_position": [
+              -51.210158386927908,
+              -30.023481235574742
+            ]
+          },
+          "7": [
+            {
+              "name": "request_young_students",
+              "type": "gather_population",
+              "values": {
+                "region": "Independência",
+                "node": "school",
+                "quantity": 630,
+                "population_template": {
+                  "age": "young",
+                  "occupation": "student"
+                }
+              }
+            }
+          ],
+          "12": [
+            {
+              "name": "request_children_students",
+              "type": "gather_population",
+              "values": {
+                "region": "Independência",
+                "node": "school",
+                "quantity": 770,
+                "population_template": {
+                  "age": "children",
+                  "occupation": "student"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Menino Deus",
+      "long_lat_position": [
+        -51.222051547168,
+        -30.0529677373194
+      ],
+      "world_position": [
+        -512.33225315716118,
+        -1815.8386764498428
+      ],
+      "neighbors": [
+        "Cidade Baixa",
+        "Azenha",
+        "Praia de Belas"
+      ],
+      "population": [
+        31650
+      ],
+      "population_description": {
+        "subgroup_a": {
+          "age": {
+            "adults": 15986,
+            "elders": 4767,
+            "young": 4971,
+            "children": 5926
+          },
+          "occupation": {
+            "idle": 7506,
+            "student": 6828,
+            "worker": 17316
+          }
+        }
+      },
+      "nodes": {
+        "home": {
+          "characteristics": {
+            "long_lat_position": [
+              -51.221407858128487,
+              -30.05595721555266
+            ]
+          },
+          "12": [
+            {
+              "name": "return_young_students",
+              "type": "return_population_home",
+              "values": {
+                "region": "Menino Deus",
+                "node": "home",
+                "quantity": -1,
+                "population_template": {
+                  "age": "young",
+                  "occupation": "student"
+                }
+              }
+            }
+          ],
+          "17": [
+            {
+              "name": "return_children_students",
+              "type": "return_population_home",
+              "values": {
+                "region": "Menino Deus",
+                "node": "home",
+                "quantity": -1,
+                "population_template": {
+                  "age": "children",
+                  "occupation": "student"
+                }
+              }
+            }
+          ],
+          "18": [
+            {
+              "name": "return_workers",
+              "type": "return_population_home",
+              "values": {
+                "region": "Menino Deus",
+                "node": "home",
+                "quantity": -1,
+                "population_template": {
+                  "occupation": "worker"
+                }
+              }
+            }
+          ]
+        },
+        "work": {
+          "characteristics": {
+            "long_lat_position": [
+              -51.218879997466011,
+              -30.052254691898064
+            ]
+          },
+          "7": [
+            {
+              "name": "request_workers",
+              "type": "gather_population",
+              "values": {
+                "region": "Menino Deus",
+                "node": "work",
+                "quantity": 13852,
+                "population_template": {
+                  "occupation": "worker"
+                }
+              }
+            }
+          ]
+        },
+        "school": {
+          "characteristics": {
+            "long_lat_position": [
+              -51.224995504383223,
+              -30.051050377158234
+            ]
+          },
+          "7": [
+            {
+              "name": "request_young_students",
+              "type": "gather_population",
+              "values": {
+                "region": "Menino Deus",
+                "node": "school",
+                "quantity": 2458,
+                "population_template": {
+                  "age": "young",
+                  "occupation": "student"
+                }
+              }
+            }
+          ],
+          "12": [
+            {
+              "name": "request_children_students",
+              "type": "gather_population",
+              "values": {
+                "region": "Menino Deus",
+                "node": "school",
+                "quantity": 3004,
+                "population_template": {
+                  "age": "children",
+                  "occupation": "student"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Moinhos de Vento",
+      "long_lat_position": [
+        -51.202415370788,
+        -30.0237549822533
+      ],
+      "world_position": [
+        1673.5569025911391,
+        1921.7640410764143
+      ],
+      "neighbors": [
+        "Floresta",
+        "Rio Branco",
+        "Independência",
+        "Bom Fim"
+      ],
+      "population": [
+        11937
+      ],
+      "population_description": {
+        "subgroup_a": {
+          "age": {
+            "adults": 6031,
+            "elders": 1797,
+            "young": 1874,
+            "children": 2235
+          },
+          "occupation": {
+            "idle": 2831,
+            "student": 2575,
+            "worker": 6531
+          }
+        }
+      },
+      "nodes": {
+        "home": {
+          "characteristics": {
+            "long_lat_position": [
+              -51.201345418494419,
+              -30.017590494555698
+            ]
+          },
+          "12": [
+            {
+              "name": "return_young_students",
+              "type": "return_population_home",
+              "values": {
+                "region": "Moinhos de Vento",
+                "node": "home",
+                "quantity": -1,
+                "population_template": {
+                  "age": "young",
+                  "occupation": "student"
+                }
+              }
+            }
+          ],
+          "17": [
+            {
+              "name": "return_children_students",
+              "type": "return_population_home",
+              "values": {
+                "region": "Moinhos de Vento",
+                "node": "home",
+                "quantity": -1,
+                "population_template": {
+                  "age": "children",
+                  "occupation": "student"
+                }
+              }
+            }
+          ],
+          "18": [
+            {
+              "name": "return_workers",
+              "type": "return_population_home",
+              "values": {
+                "region": "Moinhos de Vento",
+                "node": "home",
+                "quantity": -1,
+                "population_template": {
+                  "occupation": "worker"
+                }
+              }
+            }
+          ]
+        },
+        "work": {
+          "characteristics": {
+            "long_lat_position": [
+              -51.208077516063867,
+              -30.020625586055132
+            ]
+          },
+          "7": [
+            {
+              "name": "request_workers",
+              "type": "gather_population",
+              "values": {
+                "region": "Moinhos de Vento",
+                "node": "work",
+                "quantity": 5224,
+                "population_template": {
+                  "occupation": "worker"
+                }
+              }
+            }
+          ]
+        },
+        "school": {
+          "characteristics": {
+            "long_lat_position": [
+              -51.208761508804855,
+              -30.024109000241115
+            ]
+          },
+          "7": [
+            {
+              "name": "request_young_students",
+              "type": "gather_population",
+              "values": {
+                "region": "Moinhos de Vento",
+                "node": "school",
+                "quantity": 927,
+                "population_template": {
+                  "age": "young",
+                  "occupation": "student"
+                }
+              }
+            }
+          ],
+          "12": [
+            {
+              "name": "request_children_students",
+              "type": "gather_population",
+              "values": {
+                "region": "Moinhos de Vento",
+                "node": "school",
+                "quantity": 1133,
+                "population_template": {
+                  "age": "children",
+                  "occupation": "student"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Praia de Belas",
+      "long_lat_position": [
+        -51.230172636,
+        -30.0472881985923
+      ],
+      "world_position": [
+        -1416.367726621218,
+        -1089.0874374480918
+      ],
+      "neighbors": [
+        "Centro",
+        "Cidade Baixa",
+        "Menino Deus"
+      ],
+      "population": [
+        2281
+      ],
+      "population_description": {
+        "subgroup_a": {
+          "age": {
+            "adults": 1153,
+            "elders": 343,
+            "young": 358,
+            "children": 427
+          },
+          "occupation": {
+            "idle": 541,
+            "student": 492,
+            "worker": 1248
+          }
+        }
+      },
+      "nodes": {
+        "home": {
+          "characteristics": {
+            "long_lat_position": [
+              -51.231195735564455,
+              -30.042237248202145
+            ]
+          },
+          "12": [
+            {
+              "name": "return_young_students",
+              "type": "return_population_home",
+              "values": {
+                "region": "Praia de Belas",
+                "node": "home",
+                "quantity": -1,
+                "population_template": {
+                  "age": "young",
+                  "occupation": "student"
+                }
+              }
+            }
+          ],
+          "17": [
+            {
+              "name": "return_children_students",
+              "type": "return_population_home",
+              "values": {
+                "region": "Praia de Belas",
+                "node": "home",
+                "quantity": -1,
+                "population_template": {
+                  "age": "children",
+                  "occupation": "student"
+                }
+              }
+            }
+          ],
+          "18": [
+            {
+              "name": "return_workers",
+              "type": "return_population_home",
+              "values": {
+                "region": "Praia de Belas",
+                "node": "home",
+                "quantity": -1,
+                "population_template": {
+                  "occupation": "worker"
+                }
+              }
+            }
+          ]
+        },
+        "work": {
+          "characteristics": {
+            "long_lat_position": [
+              -51.228234683753158,
+              -30.052046285142694
+            ]
+          },
+          "7": [
+            {
+              "name": "request_workers",
+              "type": "gather_population",
+              "values": {
+                "region": "Praia de Belas",
+                "node": "work",
+                "quantity": 998,
+                "population_template": {
+                  "occupation": "worker"
+                }
+              }
+            }
+          ]
+        },
+        "school": {
+          "characteristics": {
+            "long_lat_position": [
+              -51.228240407195948,
+              -30.047510168484404
+            ]
+          },
+          "7": [
+            {
+              "name": "request_young_students",
+              "type": "gather_population",
+              "values": {
+                "region": "Praia de Belas",
+                "node": "school",
+                "quantity": 177,
+                "population_template": {
+                  "age": "young",
+                  "occupation": "student"
+                }
+              }
+            }
+          ],
+          "12": [
+            {
+              "name": "request_children_students",
+              "type": "gather_population",
+              "values": {
+                "region": "Praia de Belas",
+                "node": "school",
+                "quantity": 216,
+                "population_template": {
+                  "age": "children",
+                  "occupation": "student"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Rio Branco",
+      "long_lat_position": [
+        -51.2019103556617,
+        -30.0331907998885
+      ],
+      "world_position": [
+        1729.7749292943627,
+        714.62753790756688
+      ],
+      "neighbors": [
+        "Independência",
+        "Moinhos de Vento",
+        "Santa Cecília",
+        "Santana",
+        "Bom Fim",
+        "Farroupilha"
+      ],
+      "population": [
+        17531
+      ],
+      "population_description": {
+        "subgroup_a": {
+          "age": {
+            "adults": 8856,
+            "elders": 2640,
+            "young": 2753,
+            "children": 3282
+          },
+          "occupation": {
+            "idle": 4158,
+            "student": 3782,
+            "worker": 9591
+          }
+        }
+      },
+      "nodes": {
+        "home": {
+          "characteristics": {
+            "long_lat_position": [
+              -51.201479274462706,
+              -30.030137272230569
+            ]
+          },
+          "12": [
+            {
+              "name": "return_young_students",
+              "type": "return_population_home",
+              "values": {
+                "region": "Rio Branco",
+                "node": "home",
+                "quantity": -1,
+                "population_template": {
+                  "age": "young",
+                  "occupation": "student"
+                }
+              }
+            }
+          ],
+          "17": [
+            {
+              "name": "return_children_students",
+              "type": "return_population_home",
+              "values": {
+                "region": "Rio Branco",
+                "node": "home",
+                "quantity": -1,
+                "population_template": {
+                  "age": "children",
+                  "occupation": "student"
+                }
+              }
+            }
+          ],
+          "18": [
+            {
+              "name": "return_workers",
+              "type": "return_population_home",
+              "values": {
+                "region": "Rio Branco",
+                "node": "home",
+                "quantity": -1,
+                "population_template": {
+                  "occupation": "worker"
+                }
+              }
+            }
+          ]
+        },
+        "work": {
+          "characteristics": {
+            "long_lat_position": [
+              -51.204829354252617,
+              -30.03542500668717
+            ]
+          },
+          "7": [
+            {
+              "name": "request_workers",
+              "type": "gather_population",
+              "values": {
+                "region": "Rio Branco",
+                "node": "work",
+                "quantity": 7672,
+                "population_template": {
+                  "occupation": "worker"
+                }
+              }
+            }
+          ]
+        },
+        "school": {
+          "characteristics": {
+            "long_lat_position": [
+              -51.197468460451653,
+              -30.029473652963897
+            ]
+          },
+          "7": [
+            {
+              "name": "request_young_students",
+              "type": "gather_population",
+              "values": {
+                "region": "Rio Branco",
+                "node": "school",
+                "quantity": 1361,
+                "population_template": {
+                  "age": "young",
+                  "occupation": "student"
+                }
+              }
+            }
+          ],
+          "12": [
+            {
+              "name": "request_children_students",
+              "type": "gather_population",
+              "values": {
+                "region": "Rio Branco",
+                "node": "school",
+                "quantity": 1664,
+                "population_template": {
+                  "age": "children",
+                  "occupation": "student"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Santa Cecília",
+      "long_lat_position": [
+        -51.201331073605,
+        -30.0408947118911
+      ],
+      "world_position": [
+        1794.2603128720075,
+        -271.03009216720238
+      ],
+      "neighbors": [
+        "Bom Fim",
+        "Rio Branco",
+        "Santana",
+        "Farroupilha"
+      ],
+      "population": [
+        5768
+      ],
+      "population_description": {
+        "subgroup_a": {
+          "age": {
+            "adults": 2915,
+            "elders": 868,
+            "young": 905,
+            "children": 1080
+          },
+          "occupation": {
+            "idle": 1368,
+            "student": 1244,
+            "worker": 3156
+          }
+        }
+      },
+      "nodes": {
+        "home": {
+          "characteristics": {
+            "long_lat_position": [
+              -51.202815836647105,
+              -30.038364465983022
+            ]
+          },
+          "12": [
+            {
+              "name": "return_young_students",
+              "type": "return_population_home",
+              "values": {
+                "region": "Santa Cecília",
+                "node": "home",
+                "quantity": -1,
+                "population_template": {
+                  "age": "young",
+                  "occupation": "student"
+                }
+              }
+            }
+          ],
+          "17": [
+            {
+              "name": "return_children_students",
+              "type": "return_population_home",
+              "values": {
+                "region": "Santa Cecília",
+                "node": "home",
+                "quantity": -1,
+                "population_template": {
+                  "age": "children",
+                  "occupation": "student"
+                }
+              }
+            }
+          ],
+          "18": [
+            {
+              "name": "return_workers",
+              "type": "return_population_home",
+              "values": {
+                "region": "Santa Cecília",
+                "node": "home",
+                "quantity": -1,
+                "population_template": {
+                  "occupation": "worker"
+                }
+              }
+            }
+          ]
+        },
+        "work": {
+          "characteristics": {
+            "long_lat_position": [
+              -51.204928578491653,
+              -30.0424819036736
+            ]
+          },
+          "7": [
+            {
+              "name": "request_workers",
+              "type": "gather_population",
+              "values": {
+                "region": "Santa Cecília",
+                "node": "work",
+                "quantity": 2524,
+                "population_template": {
+                  "occupation": "worker"
+                }
+              }
+            }
+          ]
+        },
+        "school": {
+          "characteristics": {
+            "long_lat_position": [
+              -51.198356877750719,
+              -30.038389515140757
+            ]
+          },
+          "7": [
+            {
+              "name": "request_young_students",
+              "type": "gather_population",
+              "values": {
+                "region": "Santa Cecília",
+                "node": "school",
+                "quantity": 447,
+                "population_template": {
+                  "age": "young",
+                  "occupation": "student"
+                }
+              }
+            }
+          ],
+          "12": [
+            {
+              "name": "request_children_students",
+              "type": "gather_population",
+              "values": {
+                "region": "Santa Cecília",
+                "node": "school",
+                "quantity": 547,
+                "population_template": {
+                  "age": "children",
+                  "occupation": "student"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Santana",
+      "long_lat_position": [
+        -51.2055865687131,
+        -30.046728905517
+      ],
+      "world_position": [
+        1320.5407643644139,
+        -1017.5228219665587
+      ],
+      "neighbors": [
+        "Bom Fim",
+        "Santa Cecília",
+        "Azenha",
+        "Cidade Baixa",
+        "Farroupilha",
+        "Rio Branco"
+      ],
+      "population": [
+        20723
+      ],
+      "population_description": {
+        "subgroup_a": {
+          "age": {
+            "adults": 10468,
+            "elders": 3121,
+            "young": 3254,
+            "children": 3880
+          },
+          "occupation": {
+            "idle": 4915,
+            "student": 4471,
+            "worker": 11337
+          }
+        }
+      },
+      "nodes": {
+        "home": {
+          "characteristics": {
+            "long_lat_position": [
+              -51.207936504803371,
+              -30.049972295767645
+            ]
+          },
+          "12": [
+            {
+              "name": "return_young_students",
+              "type": "return_population_home",
+              "values": {
+                "region": "Santana",
+                "node": "home",
+                "quantity": -1,
+                "population_template": {
+                  "age": "young",
+                  "occupation": "student"
+                }
+              }
+            }
+          ],
+          "17": [
+            {
+              "name": "return_children_students",
+              "type": "return_population_home",
+              "values": {
+                "region": "Santana",
+                "node": "home",
+                "quantity": -1,
+                "population_template": {
+                  "age": "children",
+                  "occupation": "student"
+                }
+              }
+            }
+          ],
+          "18": [
+            {
+              "name": "return_workers",
+              "type": "return_population_home",
+              "values": {
+                "region": "Santana",
+                "node": "home",
+                "quantity": -1,
+                "population_template": {
+                  "occupation": "worker"
+                }
+              }
+            }
+          ]
+        },
+        "work": {
+          "characteristics": {
+            "long_lat_position": [
+              -51.20829853562239,
+              -30.050816342133725
+            ]
+          },
+          "7": [
+            {
+              "name": "request_workers",
+              "type": "gather_population",
+              "values": {
+                "region": "Santana",
+                "node": "work",
+                "quantity": 9069,
+                "population_template": {
+                  "occupation": "worker"
+                }
+              }
+            }
+          ]
+        },
+        "school": {
+          "characteristics": {
+            "long_lat_position": [
+              -51.209483137364245,
+              -30.045277750767887
+            ]
+          },
+          "7": [
+            {
+              "name": "request_young_students",
+              "type": "gather_population",
+              "values": {
+                "region": "Santana",
+                "node": "school",
+                "quantity": 1609,
+                "population_template": {
+                  "age": "young",
+                  "occupation": "student"
+                }
+              }
+            }
+          ],
+          "12": [
+            {
+              "name": "request_children_students",
+              "type": "gather_population",
+              "values": {
+                "region": "Santana",
+                "node": "school",
+                "quantity": 1967,
+                "population_template": {
+                  "age": "children",
+                  "occupation": "student"
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

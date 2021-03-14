@@ -1,0 +1,22 @@
+{
+  "population_template": {
+    "age": [
+      "adults" = 0.5050757405,
+      "elders" = 0.1506161347,
+      "young" = 0.1570630737,
+      "children" = 0.1872450511
+    ],
+    "occupation": [
+      "idle" = 0.2371808017,
+      "student" = 0.215755337,
+      "worker" = 0.5470638613
+    ]
+  },
+  "subgroup_types": [
+    "subgroup_a"
+  ]
+}
+
+
+
+

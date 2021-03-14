@@ -1,0 +1,119 @@
+[
+ {
+   "ID": 1,
+   "RegionName": "Azenha",
+   "NeighborIDs": "4;5;13;8",
+   "Population": 13804,
+   "Longitude": -51.2147436812232,
+   "Latitude": -30.0510199525848,
+   "Nodes": "home,work,school"
+ },
+ {
+   "ID": 2,
+   "RegionName": "Bom Fim",
+   "NeighborIDs": "7;11;12;13;5;3;9",
+   "Population": 11593,
+   "Longitude": -51.2104807594223,
+   "Latitude": -30.0330589939714,
+   "Nodes": "home,work,school"
+ },
+ {
+   "ID": 3,
+   "RegionName": "Centro",
+   "NeighborIDs": "6;7;2;5;4;10",
+   "Population": 39154,
+   "Longitude": -51.2278480810808,
+   "Latitude": -30.031004727877,
+   "Nodes": "home,work,school"
+ },
+ {
+   "ID": 4,
+   "RegionName": "Cidade Baixa",
+   "NeighborIDs": "3;5;13;1;8;10",
+   "Population": 15379,
+   "Longitude": -51.2224525885919,
+   "Latitude": -30.0404993243547,
+   "Nodes": "home,work,school"
+ },
+ {
+   "ID": 5,
+   "RegionName": "Farroupilha",
+   "NeighborIDs": "2;13;1;4;3;11;12",
+   "Population": 961,
+   "Longitude": -51.2136185372287,
+   "Latitude": -30.038368061923,
+   "Nodes": "home,work,school"
+ },
+ {
+   "ID": 6,
+   "RegionName": "Floresta",
+   "NeighborIDs": "9;7;3",
+   "Population": 11596,
+   "Longitude": -51.2120255115732,
+   "Latitude": -30.0218580655156,
+   "Nodes": "home,work,school"
+ },
+ {
+   "ID": 7,
+   "RegionName": "Independência",
+   "NeighborIDs": "6;9;11;2;3",
+   "Population": 8112,
+   "Longitude": -51.2114165227445,
+   "Latitude": -30.0283138642156,
+   "Nodes": "home,work,school"
+ },
+ {
+   "ID": 8,
+   "RegionName": "Menino Deus",
+   "NeighborIDs": "4;1;10",
+   "Population": 31650,
+   "Longitude": -51.222051547168,
+   "Latitude": -30.0529677373194,
+   "Nodes": "home,work,school"
+ },
+ {
+   "ID": 9,
+   "RegionName": "Moinhos de Vento",
+   "NeighborIDs": "6;11;7;2",
+   "Population": 11937,
+   "Longitude": -51.202415370788,
+   "Latitude": -30.0237549822533,
+   "Nodes": "home,work,school"
+ },
+ {
+   "ID": 10,
+   "RegionName": "Praia de Belas",
+   "NeighborIDs": "3;4;8",
+   "Population": 2281,
+   "Longitude": -51.230172636,
+   "Latitude": -30.0472881985923,
+   "Nodes": "home,work,school"
+ },
+ {
+   "ID": 11,
+   "RegionName": "Rio Branco",
+   "NeighborIDs": "7;9;12;13;2;5",
+   "Population": 17531,
+   "Longitude": -51.2019103556617,
+   "Latitude": -30.0331907998885,
+   "Nodes": "home,work,school"
+ },
+ {
+   "ID": 12,
+   "RegionName": "Santa Cecília",
+   "NeighborIDs": "2;11;13;5",
+   "Population": 5768,
+   "Longitude": -51.201331073605,
+   "Latitude": -30.0408947118911,
+   "Nodes": "home,work,school"
+ },
+ {
+   "ID": 13,
+   "RegionName": "Santana",
+   "NeighborIDs": "2;12;1;4;5;11",
+   "Population": 20723,
+   "Longitude": -51.2055865687131,
+   "Latitude": -30.046728905517,
+   "Nodes": "home,work,school"
+ }
+]

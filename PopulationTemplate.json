@@ -1,0 +1,24 @@
+{
+  "population_template": {
+    "age": [
+      "adults",
+      "elders",
+      "young",
+      "children"
+    ],
+    "occupation": [
+      "idle",
+      "student",
+      "worker"
+    ]
+  },
+  "subgroup_types": [
+    "subgroup_a"
+  ]
+}
+
+
+
+
+
+
